@@ -66,6 +66,10 @@ Introduces the foundational constructs:
 * Compression / Expansion
 * Interaction Bandwidth
 
+Supplemental material:
+
+* `papers/paper1/docs/Flint-Echo_Coherence_Principle.md`
+
 ---
 
 ### Series Roadmap

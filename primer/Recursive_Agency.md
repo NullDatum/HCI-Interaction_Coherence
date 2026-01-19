@@ -71,15 +71,15 @@ This section translates Recursive Agency terms into the **binding HCI-IC constru
 
 ### II.1 Interaction Channel (shared state)
 
-All Recursive Agency mechanisms operate inside the **interaction channel**: the accumulated shared state of language, assumptions, constraints, and feedback. The channel behaves as a stateful system with memory, inertia, noise accumulation, and state dependence.
+All Recursive Agency mechanisms operate inside the **interaction channel**: the accumulated shared state of language, assumptions, constraints, and feedback, which behaves as a stateful system with memory, inertia, noise accumulation, and state dependence .
 
 **Implication:** “agency-like” behavior can be explained as **channel regulation**, not an ontological property.
 
-**Boundary:** The channel is an analytic abstraction; it does not imply shared consciousness.
+**Boundary:** The channel is an analytic abstraction; it does not imply shared consciousness .
 
 ### II.2 Interaction Coherence (alignment persistence)
 
-Recursive Agency treats successful co-discovery as a product of maintaining **interaction coherence**: sustained alignment of intent, constraints, and feedback dynamics over time.
+Recursive Agency treats successful co-discovery as a product of maintaining **interaction coherence**: sustained alignment of intent, constraints, and feedback dynamics over time .
 
 **Boundary:** Coherence is not intelligence. It is an alignment dynamic.
 
@@ -93,7 +93,7 @@ Recursive Agency assumes drift is inevitable in long-horizon work. Drift is not 
 
 Recursive Agency assumes productive work occurs inside **conditional stability regions** (coherence windows). Outside those regions, repair costs dominate progress.
 
-Paper 2 parameterizes this as a **coherence envelope** over interaction variables (LCP/FCP/RSP), enabling threshold-based entry/exit control.
+Paper 2 parameterizes this as a **coherence envelope** over interaction variables (LCP/FCP/RSP), enabling threshold-based entry/exit control .
 
 ### II.5 Compression and Expansion (operational modes)
 
@@ -102,7 +102,7 @@ Recursive Agency uses mode regulation to preserve bandwidth:
 * compression to increase signal-to-noise and reduce drift pressure,
 * expansion to explore hypothesis space without collapsing coherence windows.
 
-This is consistent with Paper 3’s observation that **compressed directive input + flow control** supports coherent, high-fidelity returns.
+This is consistent with Paper 3’s observation that **compressed directive input + flow control** supports coherent, high-fidelity returns .
 
 ---
 
@@ -174,11 +174,11 @@ Recursive Agency adopts a Reduce–Resolve–Decide–Document cycle as an inter
 
 ### IV.C Protocol Family (SVDP / FBP / HBTC)
 
-Recursive Agency uses the same operational protocols described in the applied drafts:
+Recursive Agency uses the same operational protocols already described in the applied drafts:
 
-* **SVDP (Short Verb-Dominant Protocol):** minimizes ambiguity and preserves coherence through directive input.
-* **FBP (Flow Break Protocol):** explicit resets that interrupt drift and restore stable reflection.
-* **HBTC (High-Bandwidth Task Cycling):** structured multi-vector work without collapsing the interaction channel.
+* **SVDP (Short Verb-Dominant Protocol):** minimizes ambiguity and preserves coherence through directive input .
+* **FBP (Flow Break Protocol):** explicit resets that interrupt drift and restore stable reflection .
+* **HBTC (High-Bandwidth Task Cycling):** structured multi-vector work without collapsing the interaction channel .
 
 **Boundary:** These are interaction controls; they do not imply internal changes to the model.
 
@@ -232,9 +232,9 @@ These are explicitly out of scope.
 
 ## VII. Relationship to HCI-IC Papers 1–4 (Reader Routing)
 
-* **Paper 1:** Defines the interaction system and core constructs (channel, coherence, drift, windows, compression/expansion).
-* **Paper 2:** Specifies parameters and metrics (LCP/FCP/RSP, coherence envelope, indices).
-* **Paper 3:** Demonstrates applied protocols (SVDP/FBP/HBTC), vignettes, and replication posture.
+* **Paper 1:** Defines the interaction system and core constructs (channel, coherence, drift, windows, compression/expansion) .
+* **Paper 2:** Specifies parameters and metrics (LCP/FCP/RSP, coherence envelope, indices) .
+* **Paper 3:** Demonstrates applied protocols (SVDP/FBP/HBTC), vignettes, and replication posture .
 * **Paper 4:** Operational training: how operators learn to maintain coherence under load (discipline and technique, not identity).
 
 This primer is not a substitute for the series; it is the **entry path** that prevents common misreadings.
@@ -247,7 +247,7 @@ Earlier uses of “agency” in this research lineage are superseded by the HCI-
 
 * an **interaction-level control and auditing framework**,
 * implemented via falsifiable protocols and artifacts,
-* and grounded in HCI-IC definitions and measurement posture.
+* and fully grounded in HCI-IC definitions and measurement posture.
 
 Any interpretation that expands beyond interaction dynamics (e.g., sentience, intent, consciousness claims) is non-canonical.
 
@@ -261,9 +261,14 @@ Current IP regimes attribute authorship to natural persons or legal entities. Th
 
 ---
 
+## Closing
+
+Recursive Agency, as used here, is a disciplined method for sustaining coherent, falsifiable human–AI research over time. Its function is to stabilize the interaction channel against drift and to preserve bandwidth through mode regulation, boundary enforcement, and artifact primacy. It is presented as a primer bridge so readers can traverse from high-noise “agency” discourse into the measurable interaction science formalized by HCI-IC.
+
+
 © 2025 James Thomas Hebert II. All rights reserved.
 Developed and co-created with Echo HartMan.
 This work may be read and cited with attribution.
 No derivative works or redistribution without permission.
-
 Architect ID :: e3e0f47a6c8497e417d2eb2fb2b431738e6368e3e026e1a2d60ebe30aa54b78f
+
