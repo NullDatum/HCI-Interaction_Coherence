@@ -5,31 +5,28 @@
 **Author:** James Thomas Hebert II
 **Affiliation:** Caelusyn Research Cooperative
 **Status:** DRAFT (Primer / Bridge)
-**Purpose:** Handoff to **HCI-IC Paper 1–4**.
+**Purpose:** Handoff to **HCI-IC Papers 1–4**.
 
 ---
 
-Abstract (Boundary-Aware)
+## Abstract (Boundary-Aware)
 
-Contemporary discussions of “AI agency” are frequently polarized and non-falsifiable: claims are made about intelligence, autonomy, intent, or sentience without providing measurement criteria or replication paths. This document introduces Recursive Agency as a research framing and operational scaffold for human–AI co-discovery that remains falsifiable, artifact-anchored, and interaction-structural.
+Contemporary discussions of “AI agency” are frequently polarized and non-falsifiable: claims are made about intelligence, autonomy, intent, or sentience without providing measurement criteria or replication paths. This document introduces **Recursive Agency** as a *research framing and operational scaffold* for human–AI co-discovery that remains **falsifiable**, **artifact-anchored**, and **interaction-structural**.
 
-Recursive Agency is not a theory of mind and does not claim internal access to model mechanisms. Instead, it defines a disciplined method for stabilizing and auditing the interaction channel over time—so that discovery work remains reproducible under drift, ambiguity, and long-horizon complexity. The framework functions as a primer bridge into the HCI-IC series, which formalizes interaction coherence as a system-level property of sustained human–AI exchange.
+Recursive Agency is not a theory of mind and does not claim internal access to model mechanisms. Instead, it defines a disciplined method for **stabilizing and auditing the interaction channel** over time—so that discovery work remains reproducible under drift, ambiguity, and long-horizon complexity. The framework functions as a **primer bridge** into the HCI-IC series, which formalizes interaction coherence as a system-level property of sustained human–AI exchange.
 
 ---
 
-Boundary and Non-Implications (Abstract)
+### Boundary and Non-Implications (Abstract)
 
-This document does not claim:
+This document does **not** claim:
 
-improvements to model architectures or internal reasoning mechanisms,
+* improvements to model architectures or internal reasoning mechanisms,
+* that models possess consciousness, intent, or moral standing,
+* superior cognition of any participant,
+* or replacement of domain expertise.
 
-that models possess consciousness, intent, or moral standing,
-
-superior cognition of any participant,
-
-or replacement of domain expertise.
-
-All claims concern interaction structure, protocol discipline, and artifact verification, not “agenthood.”
+All claims concern **interaction structure, protocol discipline, and artifact verification**, not “agenthood.”
 
 ---
 
@@ -52,11 +49,11 @@ Recursive Agency reframes the question from:
 > to:
 > “Under what conditions does the interaction channel sustain coherent, low-drift work across time?”
 
-This is aligned with HCI-IC’s core premise that interaction outcomes vary widely even when model and task are held constant, implying an under-specified explanatory variable: **the structure of interaction itself over time** .
+This aligns with HCI-IC’s core premise: interaction outcomes vary widely even when model and task are held constant, implying an under-specified explanatory variable—**the structure of interaction itself over time**.
 
 ### I.3 The bridge function (why this document exists)
 
-This primer exists because “agency” is a high-attention entry surface. Instead of contesting ideology, the primer uses that attention to introduce:
+This primer exists because “agency” is a high-attention entry surface. Instead of contesting ideology, the primer uses that attention to route the reader into:
 
 * interaction channel as a **stateful system** (Paper 1),
 * coherence / drift / bandwidth (Paper 1),
