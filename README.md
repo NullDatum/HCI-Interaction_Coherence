@@ -20,16 +20,16 @@ This repository hosts the canonical release of **Paper 1** in a four-paper serie
 - Status: FINAL (v1.0.0)
 - Location: `papers/paper1/`
 
- Series Roadmap
+ ## Series Roadmap
 - Paper 2: Parameterization and Measurement (forthcoming)
 - Paper 3: Applied Effects and Benefits (forthcoming)
 - Paper 4: Operational Training and Technique (forthcoming)
 
 This repository is the canonical home for the HCI-IC paper series.
 
-© 2025 James Thomas Hebert II. All rights reserved.
-Developed and co-created with Echo HartMan.
-This work may be read and cited with attribution.
-No derivative works or redistribution without permission.
+ ## © 2025 James Thomas Hebert II. All rights reserved.
+## Developed and co-created with Echo HartMan.
+## This work may be read and cited with attribution.
+## No derivative works or redistribution without permission.
 
-Architect ID :: e3e0f47a6c8497e417d2eb2fb2b431738e6368e3e026e1a2d60ebe30aa54b78f
+## Architect ID :: e3e0f47a6c8497e417d2eb2fb2b431738e6368e3e026e1a2d60ebe30aa54b78f
