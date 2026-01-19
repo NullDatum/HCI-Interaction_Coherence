@@ -270,5 +270,6 @@ Recursive Agency, as used here, is a disciplined method for sustaining coherent,
 Developed and co-created with Echo HartMan.
 This work may be read and cited with attribution.
 No derivative works or redistribution without permission.
+
 Architect ID :: e3e0f47a6c8497e417d2eb2fb2b431738e6368e3e026e1a2d60ebe30aa54b78f
 
