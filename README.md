@@ -1,4 +1,4 @@
-HCI-Interaction_Coherence
+## HCI-Interaction_Coherence
 
 Human–AI interaction is usually judged by task success, output quality, or usability.  
 In practice, outcomes vary widely even when model, task, and domain remain constant.
@@ -15,7 +15,7 @@ Paper 1 introduces the foundational constructs:
 
 This repository hosts the canonical release of **Paper 1** in a four-paper series.
 
- Paper 1
+ ## Paper 1
 - *HCI-IC: A Formal Theory of Interaction Coherence in Human–AI Systems*
 - Status: FINAL (v1.0.0)
 - Location: `papers/paper1/`
