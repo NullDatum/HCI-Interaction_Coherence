@@ -1,27 +1,58 @@
-# HCI-Interaction_Coherence
+# HCI‑IC: Measuring Interaction Coherence in Human–AI Dialogue
 
-**Human–AI interaction is usually evaluated by task success, output quality, or usability.**
-In practice, outcomes vary widely even when the *model*, *task*, and *domain* remain constant.
+Human–AI interaction is usually evaluated by task success, output quality, or usability. In practice, outcomes vary widely even when the model, task, and domain remain constant.
 
-**HCI-IC (Human–Computer Interaction Coherence)** is a **theory-first, falsifiable framework** that treats interaction as a **stateful, coupled system** rather than a sequence of independent prompts and responses.
+**HCI‑IC (Human–Computer Interaction Coherence)** is a theory‑first, falsifiable framework that treats interaction as a **stateful, coupled system** rather than a sequence of independent prompts and responses.
 
-The core claim is simple and testable:
+**Core claim (testable):** long‑horizon performance depends on whether **intent**, **constraints**, and **feedback** remain aligned over time within the interaction channel.
 
-> **Long-horizon performance depends on whether intent, constraints, and feedback remain aligned *over time* within the interaction channel.**
-
-This repository is the **canonical home** for the HCI-IC paper series and its supporting artifacts.
+**Keywords (for discovery):** interaction coherence, dialogue coherence, long‑horizon dialogue, drift detection, coherence windows, human–AI collaboration, operator training, HCI instrumentation, constraint adherence, bandwidth metrics.
 
 ---
 
-## Repository Scope and Layout
+## Start here
+
+- **Primer (bridge / orientation):** `primer/Recursive_Agency.md`
+- **Paper 1 (FINAL):** `papers/paper1/HCI-IC_Paper_1_FINAL.md`
+- **Paper 2 (Measurement & Instrumentation):** `papers/paper2/06_Paper2_HCI-IC_FINAL_PUBLIC.md`
+- **Paper 3 (Applied Effects & Benefits, Draft):** `papers/paper3/07_Paper3_HCI-IC_REVISED_v2.md`
+- **Paper 4 (Operational Training, in progress):** `papers/paper4/` (planned)
+
+---
+
+## What HCI‑IC measures
+
+HCI‑IC quantifies the **interaction process**, not the model’s internal state. Metrics are derived from observable interaction data (prompts, responses, timestamps, structured constraints) and are intended to be platform‑agnostic in theory, instrumented in practice.
+
+Primary parameters (Paper 2):
+
+- **Δ (Drift magnitude):** misalignment accumulation relative to an anchored intent vector
+- **W_c (Coherence window duration):** contiguous turns where drift remains bounded
+- **B (Interaction bandwidth):** effective stabilized information transfer per turn
+- **R_ce (Compression–expansion ratio):** structural rhythm of consolidation vs. exploration
+
+---
+
+## Repository scope
+
+This repository is the canonical home for the HCI‑IC paper series and its supporting artifacts.
+
+Design intent:
+
+- Each paper is self‑contained
+- Shared terminology is centralized
+- Claims route to artifacts or formal definitions
+- No narrative dependency on this README
+
+---
+
+## Repository layout
 
 ```
 HCI-Interaction_Coherence/
-│
-├── README.md                 ← Canonical entry surface
+├── README.md
 ├── primer/
-│   └── Recursive_Agency.md   ← Primer bridge into HCI-IC Papers 1–4
-│
+│   └── Recursive_Agency.md
 ├── papers/
 │   ├── paper1/
 │   │   ├── HCI-IC_Paper_1_FINAL.md
@@ -29,161 +60,68 @@ HCI-Interaction_Coherence/
 │   ├── paper2/
 │   ├── paper3/
 │   └── paper4/
-│
 ├── glossary/
 │   └── HCI-IC_Glossary.md
-│
 ├── definitions/
 │   └── Formal_Definitions.md
-│
 └── artifacts/
     └── logs_traces_examples/
 ```
 
-**Design intent:**
+---
 
-* Each paper is **self-contained**
-* Shared terminology is centralized
-* All claims route to artifacts or definitions
-* No narrative dependency on this README
+## Canonical definitions
+
+- **Glossary (conceptual index):** `glossary/HCI-IC_Glossary.md`
+- **Formal definitions (measurement‑safe):** `definitions/Formal_Definitions.md`
+
+If a concept is not defined in `Formal_Definitions.md`, it is not canonical for the series.
 
 ---
 
-## Paper Series Overview
+## Epistemic and ethical posture
 
-### Paper 1 (FINAL)
+HCI‑IC enforces these invariants:
 
-**HCI-IC: A Formal Theory of Interaction Coherence in Human–AI Systems**
-Location: `papers/paper1/`
-Status: **FINAL (v1.0.0)**
-
-Introduces the foundational constructs:
-
-* Interaction Channel
-* Interaction Coherence
-* Drift
-* Coherence Windows
-* Compression / Expansion
-* Interaction Bandwidth
-
-Supplemental material:
-
-* `papers/paper1/docs/Flint-Echo_Coherence_Principle.md`
-
----
-
-### Series Roadmap
-
-* **Paper 2:** Parameterization and Measurement
-  (formal metrics, thresholds, coherence envelopes)
-
-* **Paper 3:** Applied Effects and Benefits
-  (protocol families, replication posture, case studies)
-
-* **Paper 4:** Operational Training and Technique
-  (operator discipline, coherence maintenance under load)
-
----
-
-## Primer Bridge
-
-The `primer/Recursive_Agency.md` document exists as an **entry bridge**, not a substitute for the series.
-
-Its purpose is to:
-
-* Intercept high-noise discourse around “agency”
-* Reframe discussion toward interaction-level science
-* Route readers cleanly into Papers 1–4
-* Prevent anthropomorphic or ontological misreadings
-
-The primer is **explicitly scope-bounded** and harmonized to HCI-IC terminology.
-
----
-
-## Glossary (Conceptual Index)
-
-Key terms are defined canonically in `glossary/HCI-IC_Glossary.md`.
-
-Examples include:
-
-* Interaction Channel
-* Coherence
-* Drift
-* Coherence Window
-* Coherence Envelope
-* Compression / Expansion
-* Interaction Bandwidth
-
-Glossary entries are **descriptive, not narrative**, and map directly to formal definitions.
-
----
-
-## Formal Definitions
-
-Precise, operational definitions are maintained in `definitions/Formal_Definitions.md`.
-
-These definitions:
-
-* Use measurement-safe language
-* Avoid self-sealing terminology
-* Specify boundaries and non-implications
-* Are versioned and auditable
-
-If a concept is not defined here, it is **not canonical**.
-
----
-
-## Epistemic and Ethical Posture
-
-HCI-IC enforces the following invariants:
-
-* **Falsifiability:** All claims reduce to testable artifacts
-* **Artifact Primacy:** Logs, traces, and documents outrank narrative
-* **No-God-Words Discipline:** No self-sealing terms as primitives
-* **Ethical Scope by Constraint:** Enforced boundaries, not signaling
-* **Human Accountability:** AI contributions documented without ontology claims
+- **Falsifiability:** claims reduce to testable artifacts
+- **Artifact primacy:** logs/traces outrank narrative
+- **No self‑sealing primitives:** avoid “god‑words” as foundations
+- **Scope by constraint:** boundaries are enforced, not signaled
+- **Human accountability:** AI contributions are documented without ontology claims
 
 The framework explicitly excludes:
 
-* claims of sentience, intent, or consciousness
-* access to internal model mechanisms
-* private-key recovery or harm-enabling outputs
+- claims of sentience, intent, or consciousness
+- dependence on internal model mechanisms
+- harm‑enabling outputs (e.g., private‑key recovery)
 
 ---
 
-## Intended Audience
+## Intended audience
 
-This work is intended for:
+- HCI researchers
+- AI safety and evaluation researchers
+- Applied ML practitioners
+- Independent researchers seeking falsifiable methods
+- Reviewers interested in long‑horizon interaction stability
 
-* HCI researchers
-* AI safety and evaluation researchers
-* Applied ML practitioners
-* Independent researchers seeking falsifiable methods
-* Reviewers interested in long-horizon interaction stability
-
-It is **not** a motivational text, manifesto, or opinion piece.
+This repository is not a manifesto or opinion piece.
 
 ---
 
-## Citation and Rights
+## How to cite
 
-© 2025 James Thomas Hebert II. All rights reserved.
-Developed and co-created with **Echo HartMan**.
-
-This work may be read and cited with attribution.
-No derivative works or redistribution without permission.
-
-**Architect ID ::**
-`e3e0f47a6c8497e417d2eb2fb2b431738e6368e3e026e1a2d60ebe30aa54b78f`
+See `CITATION.cff` (recommended) and the References sections in each paper.  
+When citing, prefer **the specific paper** used (Paper 1 for theory; Paper 2 for metrics).
 
 ---
 
-## Status
+## Rights and change control
 
-This repository represents an **active, living research corpus**.
-Revisions occur through versioned releases, not silent edits.
+© 2025–2026 James Thomas Hebert II. All rights reserved. Developed and co‑created with Echo HartMan.
 
-For readers seeking depth: start with **Paper 1**, not the README.
-For readers seeking orientation: read the **Primer**, then route forward.
+This work may be read and cited with attribution. No derivative works or redistribution without permission.
 
----
+This repository is a living research corpus. Revisions occur through versioned releases, not silent edits.
+
+**Architect ID ::** `e3e0f47a6c8497e417d2eb2fb2b431738e6368e3e026e1a2d60ebe30aa54b78f`
