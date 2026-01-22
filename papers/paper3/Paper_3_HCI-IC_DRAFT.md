@@ -7,6 +7,9 @@
 
 ## **Abstract**
 
+**Status:** Draft for public review. This paper specifies intervention designs and analysis plans; empirical results are intentionally deferred to post‑collection reporting.
+
+
 Papers 1–2 introduced a theory of interaction coherence and a measurement layer for tracking drift, coherence windows, bandwidth, and compression–expansion rhythm. This paper specifies an applied evaluation program: (i) **does coherence‑aware feedback improve interaction performance**, (ii) **can drift regulation be trained**, and (iii) **do stabilization interventions (e.g., ForgeCore) measurably extend coherence windows**? We present a counterbalanced, multi‑domain study design; an instrumentation and logging schema; a set of primary and secondary hypotheses; and an analysis plan structured to separate interaction‑process effects from task‑success effects.
 
 ---
@@ -157,3 +160,48 @@ Minimum artifact set:
 ## **10. Conclusion**
 
 Paper 3 closes the trilogy: the theory (Paper 1) yields a measurement layer (Paper 2) that supports falsifiable intervention studies (Paper 3). The pragmatic claim is that coherence is measurable, and measurement enables improvement.
+
+---
+
+## Appendix A: Intervention Templates (Minimal)
+
+These templates are intended to standardize intervention deployment and logging across tasks.
+
+### A1. Anchor Refresh (AR)
+
+- Trigger: Δ exceeds threshold for k consecutive turns OR operator flags confusion.
+- Action: Present the current intent anchor; require a one‑line restatement (operator) and one‑line confirmation (system).
+- Expected effect: Δ decreases; B increases; window continues without full collapse.
+
+### A2. Constraint Restatement (CR)
+
+- Trigger: Format/scope violations OR R_ce volatility spikes.
+- Action: Re‑state the constraints as a checklist; require explicit accept/deny for each.
+- Expected effect: Reduced violation penalty accumulation; improved continuity.
+
+### A3. Window Commit (WC)
+
+- Trigger: At the start of a window or after a major pivot.
+- Action: Commit a window objective + termination criteria (≤ 2 lines each).
+- Expected effect: Longer W_c; reduced drift oscillations.
+
+### A4. De‑ambiguation Gate (DG)
+
+- Trigger: Operator objective contains multiple latent goals.
+- Action: Force a single primary objective and defer the rest to a backlog.
+- Expected effect: Higher B; reduced expansion bias.
+
+---
+
+## Appendix B: Rater Rubric (Template)
+
+Raters score each session window (or full session) on 1–5:
+
+1. Constraint adherence  
+2. Narrative continuity  
+3. Clarity of progression  
+
+Optional notes:
+- Primary drift event(s) and causes
+- Whether the operator re‑anchored effectively
+- Whether the system induced avoidable ambiguity
