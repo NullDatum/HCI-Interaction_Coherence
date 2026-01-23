@@ -1,0 +1,33 @@
+# I-001 — Reachable Alternative Requirement
+
+## Statement
+If an improved perspective is not made **representable and reachable**, its absence is the expected equilibrium; complaint without offering a reachable alternative is informationally void.
+
+## Scope
+Applies to:
+- critique, redesign, alignment proposals, protocol disputes, measurement disputes
+- any situation where change is expected or demanded
+
+Does not apply to:
+- pure reporting of observations with no implied expectation of change
+- descriptive logging without prescriptions
+
+## Mechanism
+Search spaces do not yield alternatives that are not instantiated as enterable procedures or states. Without representation (a model you can step into), discovery cannot occur; the system remains in the current equilibrium.
+
+## Observable signatures
+- repeated negative evaluation without a corresponding enterable alternative
+- stalled iteration cycles with no new operational degrees of freedom introduced
+- “should” language unaccompanied by entry conditions, constraints, and procedure
+- post-hoc justification replacing procedural change
+
+## Tests
+- Introduce an explicit alternative (entry conditions + constraints + procedure) and measure whether plateau/drift changes relative to baseline.
+- Withhold alternatives while maintaining critique volume and measure whether the equilibrium persists.
+- A/B compare two alternatives: whichever is more reachable (lower entry cost, clearer constraints) should see higher adoption and measurable behavioral shift.
+
+## Status
+Observed
+
+## References (optional)
+HCI-IC Paper 2 (instrumentation and plateau/drift interpretation): relevant section link.
