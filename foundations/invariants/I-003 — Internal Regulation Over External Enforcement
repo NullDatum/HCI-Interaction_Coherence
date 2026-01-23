@@ -1,0 +1,41 @@
+# I-003 — Internal Regulation Over External Enforcement
+
+## Statement
+Stable long-horizon collaboration is characterized by **internal regulation** (feedback correction toward a reference) rather than **external enforcement** (blocking/punishment); enforcement-dominant regimes increase drift and reduce portability across contexts.
+
+## Scope
+Applies to:
+- sustained collaboration (multi-step tasks, long threads, multi-session work)
+- operator training and measurement interpretation
+- any setting where “guardrails” can become the primary interaction mode
+
+Does not apply to:
+- narrow, immediate safety constraints where blocking is unavoidable (short-horizon hard limits)
+- one-shot responses where no loop exists to regulate
+
+## Mechanism
+Internal regulation uses sensing, reference alignment, and corrective action to stabilize trajectories. External enforcement interrupts trajectories without providing corrective guidance, increasing oscillation, adversarial framing, and rework—manifesting as drift and reduced coherence.
+
+## Observable signatures
+Internal regulation dominant:
+- explicit reference signals (goal/invariant reminders)
+- corrective reframes that preserve momentum
+- decreasing drift over time under similar load
+
+External enforcement dominant:
+- frequent hard stops without alternative procedures
+- escalating constraint language
+- rising friction markers and repeated restarts
+- “compliance theater” (surface adherence with unstable underlying intent/trajectory)
+
+## Tests
+- Compare two protocols on the same task class: (A) enforcement-first vs. (B) regulation-first (sense→compare→correct). Measure drift magnitude, recovery time after errors, and task completion stability.
+- In multi-session work, measure whether constraints remain stable without repeated restatement (regulation should reduce restatement frequency).
+- Stress test with higher load; regulation-first should degrade more gracefully.
+
+## Status
+Observed
+
+## References (optional)
+HCI-IC Paper 2 (Δ, W_c, B, R_ce) for measuring drift/stability: relevant section link.
+Paper 4 (operator techniques under load): relevant section link.
