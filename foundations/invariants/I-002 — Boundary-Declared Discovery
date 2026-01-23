@@ -1,0 +1,34 @@
+# I-002 — Boundary-Declared Discovery
+
+## Statement
+Discovery must occur inside a declared scope; without explicit boundary declaration, restraint cannot be internalized and can only be externally enforced.
+
+## Scope
+Applies to:
+- exploratory interaction phases (brainstorming, probing, hypothesis search)
+- measurement work where definitions can drift (metrics, “success,” “legibility,” etc.)
+- any “open-ended” collaboration that risks scope creep
+
+Does not apply to:
+- fixed-scope execution tasks where scope is already unambiguous (e.g., run command X, compute Y)
+- post-hoc analysis where scope is purely descriptive and not used to drive action
+
+## Mechanism
+Without a declared scope, permissible operations are undefined. Undefined scope forces inference-based limits and post-hoc rationalization. Inference-based limits are unstable and cannot be internalized; they require enforcement and generate drift.
+
+## Observable signatures
+- implicit scope expansion (new goals/definitions introduced without explicit revision)
+- metric drift (redefining success/terms after outcomes)
+- oscillation between “allowed” and “not allowed” without a stable boundary condition
+- increased conflict markers or repeated hard stops due to ambiguity
+
+## Tests
+- Require a scope declaration + activation before exploration; compare drift/plateau rates vs. ungated exploration.
+- Force explicit scope-revision events (versioned scope changes); verify reduction in post-hoc redefinition.
+- Attempt to reproduce results across sessions; boundary-declared discovery should replicate more reliably.
+
+## Status
+Observed
+
+## References (optional)
+Protocol P-008 legibility boundary episode (metric drift via post-hoc redefinition): link/section.
