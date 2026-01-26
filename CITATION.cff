@@ -1,41 +1,36 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it using the metadata below."
-title: "HCI-IC: Human–AI Interaction Coherence"
-type: software
-
+message: "If you use this work, please cite it as below."
+type: manuscript
+title: "HCI-IC: A Formal Theory of Interaction Coherence in Human–AI Systems"
 authors:
   - family-names: "Hebert"
     given-names: "James Thomas"
     name-suffix: "II"
     affiliation: "Caelusyn Research Cooperative"
-
 repository-code: "https://github.com/NullDatum/HCI-Interaction_Coherence"
 url: "https://github.com/NullDatum/HCI-Interaction_Coherence"
-
 keywords:
+  - "HCI"
   - "human-AI interaction"
   - "interaction coherence"
   - "drift"
-  - "alignment"
-  - "measurement"
-  - "long-horizon collaboration"
   - "systems theory"
   - "falsifiability"
-
-license: "proprietary"
-
+license: "LicenseRef-Proprietary"
+copyright: "© 2025–2026 James Thomas Hebert II. All rights reserved."
 abstract: >
-  HCI-IC is a theory-first framework modeling long-horizon human–AI interaction as a
-  stateful system governed by coherence, drift, bandwidth, and compression/expansion
-  rhythm, with measurement definitions derived from observable interaction logs.
-
+  HCI-IC (Human–Computer Interaction Coherence) is a formal framework for
+  measuring interaction stability and drift in long-horizon human–AI systems.
+  It defines falsifiable parameters and instrumentation approaches that do not
+  require access to model internals, enabling platform-agnostic evaluation and
+  operator training.
 preferred-citation:
-  type: report
+  type: manuscript
   title: "HCI-IC: A Formal Theory of Interaction Coherence in Human–AI Systems"
   authors:
     - family-names: "Hebert"
       given-names: "James Thomas"
       name-suffix: "II"
-      affiliation: "Caelusyn Research Cooperative"
-  year: 2025
+  year: 2026
   url: "https://github.com/NullDatum/HCI-Interaction_Coherence"
+  repository-code: "https://github.com/NullDatum/HCI-Interaction_Coherence"
