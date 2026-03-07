@@ -1,4 +1,11 @@
 # HCI‑IC: Measuring Interaction Coherence in Human–AI Dialogue
+Origin of the Framework
+
+HCI-IC emerged from a multi-year corpus of human-AI interaction logs, traces, and structured dialogue artifacts. The framework was not invented independently of evidence and then applied retroactively; it was induced from repeated long-horizon interaction patterns observed across the archive and only later formalized into explicit concepts, parameters, and falsifiable claims.
+
+The public paper series is theory-first in presentation, but artifact-first in origin. Recurrent phenomena in the corpus—drift, coherence loss, recovery intervals, stabilized transfer, and rhythms of consolidation versus exploration—were abstracted into measurable interaction constructs. This process produced the canonical parameters used in the framework: drift magnitude (Δ), coherence window duration (W_c), interaction bandwidth (B), and compression-expansion ratio (R_ce).
+
+HCI-IC therefore studies the interaction channel itself as a stateful coupled system. It does not claim access to internal model ontology, sentience, or hidden mechanisms. Its claims are limited to what can be measured, tested, and compared from observable interaction data.
 
 Human–AI interaction is usually evaluated by task success, output quality, or usability. In practice, outcomes vary widely even when the model, task, and domain remain constant.
 
