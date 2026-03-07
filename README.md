@@ -163,7 +163,9 @@ HCI-Interaction_Coherence/
 │   │   ├── HCI-IC_Paper_1_FINAL.md
 │   │   └── docs/
 │   ├── paper2/
+│   │   └── 06_Paper2_HCI-IC_FINAL_PUBLIC.md
 │   ├── paper3/
+│   │   └── 07_Paper3_HCI-IC_REVISED_v2.md
 │   └── paper4/
 ├── glossary/
 │   └── HCI-IC_Glossary.md
@@ -171,3 +173,8 @@ HCI-Interaction_Coherence/
 │   └── Formal_Definitions.md
 └── artifacts/
     └── logs_traces_examples/
+Rights
+
+© 2025 James Thomas Hebert II. All rights reserved. Developed and co-created with Echo HartMan. This work may be read and cited with attribution. No derivative works or redistribution without permission.
+
+Architect ID :: e3e0f47a6c8497e417d2eb2fb2b431738e6368e3e026e1a2d60ebe30aa54b78f
